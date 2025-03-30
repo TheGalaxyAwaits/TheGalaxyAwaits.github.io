@@ -1,1 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Liberty High Community Gymnasium</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Sambella Bangura">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/viewport.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <a href=""><img src="" alt=""></a>
+            <nav>
+                <ul>
+                    <li><a href="information.html">Home</a></li>
+                    <li><a href="planner.html">Planning Details</a></li>
+                    <li><a href="calendar.html">Calendar of Events</a></li>
+                    <li><a href="purchase.html">Purchase Tickets</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <!--Form for Purchasing Tickets-->
+            <h1>Purchasing Tickets</h1>
+            <form id="purchaseTickets">
+                <fieldset>
+                    <div>
+                        <label>Select Event(s)</label>
+                    <select>
+                        <option>Siblings Day</option>
+                        <option>Spring Community Yard Sale</option>
+                        <option>May the 4<sup>th</sup> Fundraiser</option>
+                        <option>Mother's Day Breakfast</option>
+                        <option>Graduation Celebration</option>
+                    </select>
+                    </div>
+
+                    <div>
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="firstName" placeholder="Enter Your First Name" required>
+                    </div>
+
+                    <div>
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Enter Your Last Name" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="abc123@something.com" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phoneNumber" placeholder="(XXX)XXX-XXXX" required>
+                    </div>
+
+                    <div>
+                        <label for="tickets">Number of Tickets</label>
+                        <input type="number" id="tickets" name="numTickets" min="1" max="100" value="1" required>
+                    </div>
+
+                    <div>
+                        <label>Method of Purchase</label>
+                        <input>
+                    </div>
+
+                    <div>
+                        <button type="submit">Purchase</button>
+                        <button type="reset">Restart Purchase</button>
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <p>
+                <small>
+                    Copyright by Sambella Bangura &copy; 2025
+                </small>
+            </p>
+        </footer>
+    </body>
+</html>
 
