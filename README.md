@@ -1,1 +1,1 @@
-# TheGalasyAwaits.github.io
+# TheGalaxyAwaits.github.io
