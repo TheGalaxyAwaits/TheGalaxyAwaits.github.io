@@ -1,0 +1,67 @@
+/* General form styling */
+form#purchaseTickets {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ff0000; /* Red border */
+    border-radius: 8px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset styling */
+form#purchaseTickets fieldset {
+    border: none;
+    padding: 0;
+}
+
+/* Label styling */
+form#purchaseTickets label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff0000; /* Red text */
+}
+
+/* Input and select styling */
+form#purchaseTickets input,
+form#purchaseTickets select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styling */
+form#purchaseTickets button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff; /* White text */
+    background-color: #ff0000; /* Red background */
+    transition: background-color 0.3s ease;
+}
+
+form#purchaseTickets button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    form#purchaseTickets {
+        padding: 15px;
+    }
+
+    form#purchaseTickets input,
+    form#purchaseTickets select {
+        font-size: 14px;
+    }
+
+    form#purchaseTickets button {
+        font-size: 14px;
+    }
+}
