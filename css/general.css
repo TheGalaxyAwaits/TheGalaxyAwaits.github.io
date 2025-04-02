@@ -184,6 +184,27 @@ main {
     flex: 1; /* Allow main content to grow and fill space */
 }
 
+/* Center the table */
+table {
+    margin: 0 auto; /* Center the table horizontally */
+    border-collapse: collapse; /* Remove gaps between table cells */
+    width: 80%; /* Optional: Set table width */
+}
+
+/* Style table cells and center text inside */
+table th, table td {
+    text-align: center; /* Center text inside table cells */
+    padding: 10px; /* Add padding for better readability */
+    border: 1px solid #fff; /* Optional: Add a white border */
+    color: #fff; /* White text */
+}
+
+/* Table header styling */
+table th {
+    background-color: #cc0000; /* Dark red background for headers */
+    font-weight: bold;
+}
+
 /* Footer styling */
 footer {
     background-color: #ff0000; /* Red background */
