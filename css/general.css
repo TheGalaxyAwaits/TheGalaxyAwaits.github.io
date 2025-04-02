@@ -84,7 +84,6 @@ body {
     background-color: #ff0000; /* Red background */
     color: #fff; /* White text */
     line-height: 1.6;
-    text-align:center; /* Center align text for better readability */
 }
 
 /* Header styling */
@@ -157,6 +156,11 @@ html, body {
 /* Main content should take up available space */
 main {
     flex: 1; /* Allow main content to grow and fill space */
+    text-align: center; /* Center align all text inside the main tag */
+    display: flex; /* Use flexbox for vertical centering */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
 }
 
 /* Footer styling */
