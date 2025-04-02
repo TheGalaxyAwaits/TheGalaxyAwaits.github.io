@@ -40,6 +40,9 @@ header h1 {
     margin: 0;
     font-size: 2em;
     color: #fff; /* White text for the header title */
+    background-color:#cc0000; /* Darker red for header title background */
+    padding: 10px; /* Padding around the title for better visibility */
+    border-radius: 5px; /* Optional: rounded corners for the header title */
 }
 
 header nav ul {
