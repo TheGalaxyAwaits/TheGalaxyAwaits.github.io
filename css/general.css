@@ -142,6 +142,27 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center; /* Center align all headings */
 }
 
+/* Ensure the body and html take full height */
+html, body {
+    height: 100%; /* Full height for the page */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+/* Main content should take up available space */
+main {
+    flex: 1; /* Allow main content to grow and fill space */
+}
+
+/* Footer styling */
+footer {
+    background-color: #ff0000; /* Red background */
+    text-align: center; /* Center the footer text */
+    padding: 10px 0;
+    color: #fff; /* White text */
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     header nav ul {
