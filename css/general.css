@@ -1,66 +1,70 @@
-/* General Styles */
+/* General body styling */
 body {
-    background-color: #ffffff;
-    color: #990000;
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ff0000; /* Red background */
+    color: #fff; /* White text */
+    line-height: 1.6;
 }
 
-/* Header Styles */
+/* Header styling */
 header {
-    background-color: #990000;
-    color: #ffffff;
+    background-color: #cc0000; /* Darker red for header */
     padding: 10px 20px;
+    text-align: center;
 }
 
-header a {
-    color: #ffffff;
-    text-decoration: none;
+header a img {
+    max-width: 100px;
+    height: auto;
 }
 
 header nav ul {
     list-style: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    gap: 20px;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-/* Main Content Styles */
-main h1, main h2 {
-    color: #990000;
+header nav ul li a:hover {
+    color: #ffe6e6; /* Light red on hover */
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-table th, table td {
-    border: 1px solid #990000;
-    padding: 10px;
-    text-align: left;
-}
-
-table th {
-    background-color: #990000;
-    color: #ffffff;
-}
-
-/* Footer Styles */
+/* Footer styling */
 footer {
-    background-color: #990000;
-    color: #ffffff;
+    background-color: #cc0000; /* Darker red for footer */
     text-align: center;
-    padding: 10px 0;
+    padding: 10px 20px;
+    color: #fff; /* White text */
 }
 
 footer small {
-    color: #ffffff;
+    font-size: 0.9em;
+}
+
+/* Link styling */
+a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
