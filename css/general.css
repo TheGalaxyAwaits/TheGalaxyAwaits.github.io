@@ -137,6 +137,11 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Center all heading tags */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center; /* Center align all headings */
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     header nav ul {
