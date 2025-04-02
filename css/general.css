@@ -28,6 +28,40 @@ header nav ul li a:hover {
     color: #ffe6e6; /* Light red on hover */
 }
 
+/* Header styling */
+header {
+    background-color: #ff0000; /* Red background */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff; /* White text for the header title */
+}
+
+header nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ffe6e6; /* Light red on hover */
+}
+
 /* Footer styling */
 footer {
     background-color: #ff0000; /* Red background */
